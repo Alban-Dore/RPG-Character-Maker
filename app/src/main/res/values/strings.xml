@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">RpgCharacter</string>
+    <string name="title">Role Playing Game\nCharacter Builder"</string>
+    <string name="play">Continue</string>
+    <string name="createcharacter">Create character</string>
+    <string name="name">Name</string>
+    <string name="race">Race</string>
+    <string name="classe">Class</string>
+    <string name="element">Element</string>
+    <string name="elem">Element : %1$s</string>
+    <string name="health">Health Points</string>
+    <string name="hp">HP</string>
+    <string name="mp">MP</string>
+    <string name="mana">Mana Points</string>
+    <string name="level">Level</string>
+    <string name="levelX">%1$d</string>
+    <string name="physique">Physical</string>
+    <string name="social">Social</string>
+    <string name="mental">Mental</string>
+    <string name="power">power</string>
+    <string name="fineness">fineness</string>
+    <string name="aura">aura</string>
+    <string name="relationship">relationship</string>
+    <string name="instinct">instinct</string>
+    <string name="knowledge">knowledge</string>
+    <string name="charactrait">Character traits</string>
+    <string name="skill">Skills</string>
+    <string name="bonus">Bonus</string>
+    <string name="inventaire">Inventory</string>
+    <string name="valueskill">Values (mana/damages..)</string>
+    <string name="valuebonus">Value (max 15%)</string>
+    <string name="stuff">Stuff</string>
+    <string name="money">Money</string>
+    <string name="btn_img">Chara design</string>
+    <string name="save">Create character</string>
+    <string name="lvlup">LEVEL UP</string>
+    <string name="coin">pièce</string>
+    <!--EditText HINT-->
+    <string name="trait1">1st character trait</string>
+    <string name="trait2">2nd character trait</string>
+    <string name="trait3">3rd character trait</string>
+    <string name="bonus1">1st bonus</string>
+    <string name="bonus2">2nd bonus</string>
+    <string name="bonus3">3rd bonus</string>
+    <string name="skill1">1st skill</string>
+    <string name="skill2">2nd skill</string>
+    <string name="skill3">3rd skill</string>
+    <string name="skill4">4th skill</string>
+    <string name="skill5">5th skill</string>
+    <string name="max100">(70max 30min)</string>
+    <string name="minpower">(min 1)</string>
+    <!--add skill / stuff / bonus-->
+    <string name="addskill">Skill</string>
+    <string name="addinventory">Add to your inventory :</string>
+    <string name="skillvalue">Skill value :</string>
+    <string name="addbonus">Bonus :</string>
+    <string name="addvaluebonus">Bonus value (max 15%) :</string>
+    <!--textview Edit stuff / skills / bonus-->
+    <string name="editstuff">\tStuff</string>
+    <string name="editinventaire">\tInventory</string>
+    <string name="editskill">\tSkills</string>
+    <string name="editbonus">\tBonus</string>
+
+    <string name="testt">100</string>
+    <string name="die">You are dead</string>
+    <string name="useHP">You are out of mana\nNow, you will use your HP instead of MP</string>
+    <string name="getMPandMAX">%1$d / %2$d</string>
+    <string name="getHPandMAX">%1$d / %2$d</string>
+    <string name="signeMoinsString">- %1$s</string>
+    <string name="nMoinsString">\n- %1$s</string>
+    <string name="valueBon">%1$s</string>
+    <string name="nValueBon">\n%1$s</string>
+    <string name="empty">\n</string>
+    <string name="toSwitch">Change language</string>
+
+    <string name="plus1">+1</string>
+    <string name="moins1">-1</string>
+    <string name="plus5">+5</string>
+    <string name="moins5">-5</string>
+    <string name="moins">-</string>
+    <string name="po">%1$s Po</string>
+    <string name="pa">%1$s Pa</string>
+    <string name="pb">%1$s Pb</string>
+</resources>

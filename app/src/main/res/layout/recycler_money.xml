@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_marginEnd="5dp"
+        android:id="@+id/linMoins5"
+        android:layout_gravity="center_vertical"
+        android:layout_width="45dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:rotation="180"
+            android:background="@drawable/btn_remove_money"
+            android:layout_centerInParent="true"
+            android:layout_width="40dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/moins5"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginEnd="5dp"
+        android:id="@+id/linMoins1"
+        android:layout_gravity="center_vertical"
+        android:layout_width="45dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:rotation="180"
+            android:background="@drawable/btn_remove_money"
+            android:layout_centerInParent="true"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="@string/moins1"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+        <ImageView
+            android:layout_margin="5dp"
+            android:id="@+id/imgPiece"
+            android:rotation="90"
+            android:layout_marginEnd="5dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/gold" />
+    <RelativeLayout
+        android:layout_marginStart="5dp"
+        android:id="@+id/linPlus1"
+        android:layout_gravity="center_vertical"
+        android:layout_width="45dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:background="@drawable/btn_add_money"
+            android:layout_centerInParent="true"
+            android:layout_width="40dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="@string/plus1"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginStart="5dp"
+        android:id="@+id/linPlus5"
+        android:layout_gravity="center_vertical"
+        android:layout_width="45dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:background="@drawable/btn_add_money"
+            android:layout_centerInParent="true"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:textColor="@android:color/holo_green_dark"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="@string/plus5"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</LinearLayout>
+
